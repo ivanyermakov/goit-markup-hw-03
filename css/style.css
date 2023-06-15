@@ -1,0 +1,261 @@
+/* цвет основного текста #2E2F42 */
+
+/* вторичный цвет текста #434455 */
+
+/* белый #FFFFFF */
+
+/* акцент #4D5AE5 */
+
+/* акцент №2 #F4F4FD */
+
+/* ///////////////////////////// */
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-text-color: #4d5ae5;
+  --white-text-color: #ffffff;
+  --primary-bg-color: #e5e5e5;
+  --footer-text-color: #f4f4fd;
+  --bcg-button-color: #404bbf;
+}
+
+.page {
+  background: var(--white-text-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.logo {
+  color: var(--accent-text-color);
+
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.header-logo-span {
+  color: var(--title-text-color);
+}
+
+.footer-logo-span {
+  color: var(--white-text-color);
+}
+
+/* Site Nav */
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--bcg-button-color);
+}
+
+.site-nav .link.current {
+  color: var(--title-text-color);
+}
+
+/* Auth Nav */
+.auth-nav .auth {
+  color: var(--primary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+
+.auth-nav {
+  font-style: normal;
+}
+
+.auth-nav .auth:hover,
+.auth-nav .auth:focus {
+  color: var(--bcg-button-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--white-text-color);
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.section-hero {
+  background-color: var(--title-text-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.section-ot {
+  background-color: var(--footer-text-color);
+}
+
+/* Features */
+.feature .title {
+  color: var(--title-text-color);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.feature .text {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Button */
+.button {
+  color: var(--white-text-color);
+  background-color: var(--accent-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--bcg-button-color);
+}
+
+button {
+  font-family: inherit;
+}
+
+.filter-button {
+  color: var(--accent-text-color);
+  background-color: var(--footer-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.filter .filter-button:hover,
+.filter .filter-button:focus {
+  color: var(--white-text-color);
+  background-color: var(--bcg-button-color);
+}
+
+.filter-button {
+  cursor: pointer;
+}
+/* Footer */
+.footer .text {
+  color: var(--footer-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.works {
+  background-color: var(--title-text-color);
+}
+
+.footer span {
+  color: var(--footer-text-color);
+}
+/* Team */
+.team .title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+}
+
+.team .text {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.team {
+  background-color: var(--white-text-color);
+}
+
+.our-team-list {
+  background-color: var(--white-text-color);
+}
+
+/* all works */
+.all-works .title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.all-works .text {
+  color: var(--primary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.all-works {
+  list-style: none;
+}
+
+.all-works .link {
+  text-decoration: none;
+}
