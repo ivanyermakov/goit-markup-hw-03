@@ -39,11 +39,16 @@ h3 {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 
 .container {
-
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  
 }
 
 /*Page Header*/
@@ -114,14 +119,17 @@ h3 {
 .hero-title {
   color: var(--white-text-color);
 
+
+  margin-top: 0;
+  margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
 }
 
 .section-hero {
+  text-align: center;
   background-color: var(--title-text-color);
 }
 
