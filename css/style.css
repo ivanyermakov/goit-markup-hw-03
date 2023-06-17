@@ -134,8 +134,17 @@ h3 {
 }
 
 /* Section */
+.section {
+  padding-bottom: 120px;
+  padding-top: 120px;
+  background-color: tomato;
+}
+
+
 .section-title {
   color: var(--title-text-color);
+
+
 
   font-weight: 700;
   font-size: 36px;
@@ -143,6 +152,7 @@ h3 {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  
 }
 
 .section-ot {
@@ -153,6 +163,9 @@ h3 {
 .feature .title {
   color: var(--title-text-color);
 
+  
+  margin-top: 0;
+  margin-bottom: 8px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -162,7 +175,8 @@ h3 {
 
 .feature .text {
   color: var(--primary-text-color);
-
+  margin-top: 0;
+  margin-bottom: 24px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -234,6 +248,12 @@ button {
   color: var(--footer-text-color);
 }
 /* Team */
+.section-ot {
+  outline: 2px solid tomato;
+  
+}
+
+
 .team .title {
   color: var(--title-text-color);
 
