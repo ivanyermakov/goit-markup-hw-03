@@ -89,11 +89,16 @@ h3 {
 }
 
 /* Site Nav */
+.site-nav {
+  display: flex;
+  gap: 40px;
+}
+
+
 .site-nav .link {
   color: var(--title-text-color);
 
-  display: flex;
-  gap: 40px; 
+
   padding-top: 24px;
   padding-bottom: 24px;
 
@@ -113,8 +118,15 @@ h3 {
 }
 
 /* Auth Nav */
+.auth-nav {
+  display: flex;
+  gap: 40px;
+}
+
+
 .auth-nav .auth {
   color: var(--primary-text-color);
+
 
   font-weight: 400;
   font-size: 16px;
@@ -148,6 +160,9 @@ h3 {
 .section-hero {
   text-align: center;
   background-color: var(--title-text-color);
+
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 /* Section */
