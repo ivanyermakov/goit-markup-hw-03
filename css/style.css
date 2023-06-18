@@ -148,6 +148,7 @@ h3 {
 .hero-title {
   color: var(--white-text-color);
 
+  max-width: 496px;
 
   margin-top: 0;
   margin-bottom: 48px;
@@ -192,6 +193,12 @@ h3 {
 }
 
 /* Features */
+.feature {
+  display: flex;
+  gap: 24px;
+}
+
+
 .feature .title {
   color: var(--title-text-color);
 
@@ -217,7 +224,12 @@ h3 {
 .button {
   color: var(--white-text-color);
   background-color: var(--accent-text-color);
+ 
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+
 
 
   font-weight: 500;
