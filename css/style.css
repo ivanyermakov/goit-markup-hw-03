@@ -76,6 +76,10 @@ h3 {
 
 
 .container-ot {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
+  display: flex;
   padding: 32px 16px
 }
 
@@ -107,6 +111,16 @@ h3 {
 .footer-logo-span {
   color: var(--white-text-color);
 }
+
+.logo .link {
+  display: inline-block;
+  margin-bottom: 16px;
+
+}
+  
+
+/* Header */
+
 
 /* Site Nav */
 .site-nav {
@@ -299,8 +313,18 @@ button {
   cursor: pointer;
 }
 /* Footer */
+.footer {
+  padding: 100px 0;
+
+}
+
+
+
+
 .footer .text {
   color: var(--footer-text-color);
+
+  max-width: 264px;
 
   font-weight: 400;
   font-size: 16px;
@@ -330,6 +354,9 @@ button {
 .team .title {
   color: var(--title-text-color);
 
+  text-align: center;
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -339,6 +366,8 @@ button {
 
 .team .text {
   color: var(--primary-text-color);
+
+  text-align: center;
 
   font-size: 16px;
   line-height: 1.5;
@@ -356,6 +385,9 @@ button {
   border-radius: 0px 0px 4px 4px;
 
 }
+
+
+
 
 /* all works */
 .all-works .title {
@@ -387,6 +419,6 @@ button {
 
 /* Images */
 .images {
-  display: block
+  display: block;
 }
 
