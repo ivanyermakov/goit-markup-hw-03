@@ -137,8 +137,11 @@ h3 {
 
 /* Header */
 .header-p {
-  border-bottom: 1px solid var(--border-bottom);
+  border-bottom: 1px solid #e7e9fc
 }
+
+
+
 
 
 /* Site Nav */
@@ -421,6 +424,7 @@ button {
   display: flex;
   column-gap: 24px;
   row-gap: 48px;
+  flex-wrap: wrap;
 }
 
 
@@ -475,8 +479,6 @@ button {
   color: var(--white-text-color);
   background-color: var(--bcg-button-color);
   border: 1px solid transparent;
-  border-radius: 4px;
-
 }
 
 .filter-button {
