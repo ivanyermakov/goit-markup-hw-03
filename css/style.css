@@ -432,3 +432,10 @@ button {
   display: flex;
   align-items: center;
 }
+
+
+/* Filter */
+.section-filter {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
