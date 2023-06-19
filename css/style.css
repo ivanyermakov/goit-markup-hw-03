@@ -18,7 +18,7 @@
   --footer-text-color: #f4f4fd;
   --bcg-button-color: #404bbf;
   --border-color: #E7E9FC;
-  --border-bottom: #e7e9fc;
+  
 }
 
 .page {
@@ -84,6 +84,12 @@ h3 {
   padding: 32px 16px
 }
 
+
+.container-all-works {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 
 
 /*Page Header*/
@@ -294,29 +300,7 @@ button {
   font-family: inherit;
 }
 
-.filter-button {
-  color: var(--accent-text-color);
-  background-color: var(--footer-text-color);
-  padding: 12px 24px;
 
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  border: 1px solid var(--border-color);
-}
-
-.filter .filter-button:hover,
-.filter .filter-button:focus {
-  color: var(--white-text-color);
-  background-color: var(--bcg-button-color);
-}
-
-.filter-button {
-  cursor: pointer;
-}
 /* Footer */
 .footer {
   padding: 100px 0;
@@ -398,6 +382,8 @@ button {
 .all-works .title {
   color: var(--title-text-color);
 
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -422,6 +408,19 @@ button {
 }
 
 
+.all-works {
+  display: flex;
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+
+.all-works-list {
+  width: calc((100% - 48px) / 3);
+}
+
+
 /* Images */
 .images {
   display: block;
@@ -438,4 +437,42 @@ button {
 .section-filter {
   padding-top: 96px;
   padding-bottom: 120px;
+}
+
+
+.filter-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px
+}
+
+
+.filter-button {
+  color: var(--accent-text-color);
+  background-color: var(--footer-text-color);
+  padding: 12px 24px;
+
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
+
+.filter .filter-button:hover,
+.filter .filter-button:focus {
+  color: var(--white-text-color);
+  background-color: var(--bcg-button-color);
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+}
+
+.filter-button {
+  cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--border-color)
 }
