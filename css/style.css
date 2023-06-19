@@ -144,7 +144,14 @@ h3 {
 }
 
 
+.header-p .container {
+  display: flex;
+}
 
+
+.page-header .container {
+  display: flex;
+}
 
 
 /* Site Nav */
@@ -466,6 +473,8 @@ button {
 .filter-button {
   color: var(--accent-text-color);
   background-color: var(--footer-text-color);
+ 
+  border-radius: 4px;
   padding: 12px 24px;
 
 
