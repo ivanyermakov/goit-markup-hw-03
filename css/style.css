@@ -271,6 +271,11 @@ h3 {
 }
 
 
+.feauture-list {
+  width: calc((100% - 72px) / 4);
+}
+
+
 .feature .title {
   color: var(--title-text-color);
 
@@ -319,6 +324,7 @@ button:focus {
 
 button {
   font-family: inherit;
+  display: block;
 }
 
 
