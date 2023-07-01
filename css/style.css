@@ -93,7 +93,12 @@ h3 {
 }
 
 
-
+.container-hero {
+  margin-left: auto;
+  width: 1440px;
+  margin-right: auto;
+  display: flex;
+}
 
 
 .container-all-works {
@@ -325,6 +330,7 @@ button:focus {
 button {
   font-family: inherit;
   display: block;
+ 
 }
 
 
